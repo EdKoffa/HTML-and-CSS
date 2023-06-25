@@ -1,0 +1,27 @@
+
+p{
+  font-family: Arial;
+}
+.stockprice {
+  font-size: 30px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+.usd {
+  font-size: 20px;
+  color: gray;
+  margin-bottom: 0px;
+}
+.positive {
+  color: green;
+  font-size: 15px;
+  margin-bottom: 0px;
+
+}
+.line3{
+  color: gray;
+  font-size: 15px;
+}
+.negative {
+  color: red;
+}

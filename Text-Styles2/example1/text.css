@@ -1,0 +1,32 @@
+p {
+  text-align: center;
+  font-family: 'Moirai One', cursive;
+}
+.new {
+  color: orange;
+  font-size: 25px;
+}
+.macbook {
+  font-weight: 800;
+  font-size: 35px;
+}
+.supercharged {
+font-weight: bolder;
+font-size: 45px;
+}
+.price{
+  font-weight: 800;
+  font-size: 35px;
+}
+span {
+  font-size: 25px;
+  color: white;
+  background-color: rgb(95, 95, 237);
+  padding: 10px;
+  border-radius: 10px;
+  transition: .15s;
+  cursor: pointer;
+}
+span:hover{
+  background-color: rgb(43, 31, 206);
+}

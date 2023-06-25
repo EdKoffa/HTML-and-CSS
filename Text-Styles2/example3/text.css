@@ -1,0 +1,13 @@
+p {
+  font-family: Arial;
+  width: 500px;
+}
+.name{
+  font-weight: bold;
+}
+.twitterhandle{
+  color: gray;
+}
+.chpit {
+  color: aqua;
+}
