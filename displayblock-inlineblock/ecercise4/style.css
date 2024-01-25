@@ -1,0 +1,37 @@
+body {
+  width: max-content;
+  margin: auto;
+
+}
+.email{
+  width: 250px;
+  border: 1px solid gray;
+}
+button {
+  width: 255.6px;
+  font-weight: bolder;
+  color: white;
+  background-color: rgb(88, 144, 234);
+  border: none;
+  transition: opacity .15s;
+}
+button:hover {
+  cursor: pointer;
+  opacity: .8;
+}
+button, .email {
+  display: block;
+  margin-top: 10px;
+  height: 30px;
+  border-radius: 10px;
+}
+.f-name, .l-name {
+  width: 122px;
+  padding: 0px;
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.f-name {
+  margin-right: 5px;
+}

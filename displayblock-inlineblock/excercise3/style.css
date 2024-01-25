@@ -1,0 +1,19 @@
+.google, .search {
+  display: block;
+  margin: auto;
+}
+.search{
+  font-size:15px;
+  width: 400px;
+  padding: 12px;
+  border-style: solid;
+  border-radius: 25px;
+  border-color: gray;
+  border-width: 1px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, .15);
+  
+}
+.google {
+  margin-bottom: 30px;
+  margin-top: 100px;
+}
