@@ -1,0 +1,42 @@
+.tweet-button {
+  cursor: pointer;
+  color: white;
+  height: 36px;
+  background-color: rgb(83, 132, 247);
+  width: 70px;
+  border-radius: 18px;
+  font-weight: bold;
+  border: none;
+  margin-right: 10px;
+  transition: box-shadow 0.15s;
+  vertical-align: middle;
+}
+.tweet-button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+}
+.searchbox {
+  height: 36px;
+  vertical-align: middle;
+  width: 300px;
+  margin-right: 15px;
+  border: none;
+  font-size: 20px;
+
+}
+.itachi-image{
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  object-position: right;
+  border-radius: 50%;
+  border: none;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+.container {
+  border: none;
+  width: max-content;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, .15);
+  border-radius: 10px;
+  padding: 10px;
+}

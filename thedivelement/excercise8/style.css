@@ -1,0 +1,37 @@
+.google, .search {
+  display: block;
+  margin: auto;
+}
+.search{
+  font-size:15px;
+  width: 500px;
+  padding: 12px;
+  border-style: solid;
+  border-radius: 25px;
+  border-color: rgba(204, 211, 214, 0.868);
+  border-width: 1px;
+  transition: all 0.15s;
+}
+.google {
+  margin-bottom: 30px;
+  margin-top: 100px;
+}
+input:focus {
+  outline: none;
+}
+.search:hover {
+  box-shadow: 0px 0px 4px rgba(0, 0, 6, .3);
+
+}
+.search-options {
+  text-align: center;
+  margin-top: 40px;
+}
+button {
+  height: 42px;
+  width: 160px;
+  background-color: rgba(237, 240, 241, 0.868);
+  border: none;
+  margin: 5px;
+  font-weight: bold;
+}
