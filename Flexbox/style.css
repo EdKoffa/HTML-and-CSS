@@ -1,0 +1,139 @@
+.body {
+  padding-bottom: 1000px;
+}
+.box1 {
+  display: flex;
+  height: 30px;
+}
+.box1-left {
+  width: 200px;
+  background-color: lightblue;
+}
+.box1-right {
+  width: 75px;
+  background-color: lightpink;
+}
+.box2 {
+  display: flex;
+  height: 30px;
+  margin-top: 30px;
+}
+.item1, .item3 {
+  background-color: lightblue;
+}
+.item1 {
+  width: 50px;
+}
+.item3 {
+  width: 75px;
+}
+.item2 {
+  background-color: lightpink;
+  flex: 1;
+}
+.box3 {
+  height: 30px;
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+.box3-item1, .box3-item2, .box3-item3, .box3-item4 {
+  background-color: lightpink;
+}
+.box4 {
+  height: 50px;
+  display: flex;
+  border: 1px solid gray;
+  justify-content: space-between;
+  align-items:center;
+  margin-top: 30px;
+}
+.box4-item1, .box4-item2 {
+  background-color: lightpink;
+}
+.box-6 {
+  background-color: mediumorchid;
+  height: 40px;
+  display: flex;
+  width: 1000px;
+  justify-content: space-between;
+  padding: 5px;
+  align-items: center;
+  margin-top: 30px;
+}
+.box6-home {
+  color: white;
+}
+.box6-search {
+  width: 500px;
+  height: 28px;
+  border: none;
+  border-radius: 15px;
+  padding-left: 15px;
+}
+.download-button {
+  background-color: mediumorchid;
+  border: 1px solid white;
+  height: 34px;
+  width: 100px;
+  color: white;
+}
+.box5 {
+  border: 1px solid gray;
+  width: 350px;
+  margin-top: 30px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.tabs {
+  display: flex;
+  justify-content: space-between;
+}
+.count {
+  color: white;
+  background-color: rgb(64, 64, 242);
+  width: 14px;
+  border-radius: 25px;
+  padding: 5px;
+  font-weight: 700;
+}
+.tab-name {
+  font-weight: 700;
+  height: 20px;
+}
+.box7 {
+  width: 800px;
+  margin-top: 30px;
+
+}
+.pet-pic {
+  width: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  height: 100px;
+  margin: 15px;
+  align-items: center;
+
+}
+.pet {
+  display: flex;
+  padding-right: 15px;
+  align-items: center;
+}
+.follow-button {
+  margin-left: auto;
+  height: 42px;
+  width: 80px;
+  background-color: rgb(79, 79, 236);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: larger;
+}
+.pet-type, .pet-ranking {
+  color: rgb(199, 197, 197);
+}
+.pet-type {
+  font-size: larger;
+  margin-bottom: 4px;
+}
