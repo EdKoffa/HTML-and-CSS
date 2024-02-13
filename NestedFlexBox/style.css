@@ -1,0 +1,86 @@
+.box1 {
+  display: flex;
+  height: 80px;
+}
+.box1-a {
+  width: 100px;
+  background-color: lightpink;
+  display: flex;
+  align-items: center;
+}
+.box1-b {
+  width: 200px;
+  background-color: lightblue;
+}
+.box1-item {
+  color: white;
+  background-color: black;
+  margin: auto;
+}
+.box2 {
+  display: flex;
+  height: 80px;
+  margin-top: 30px;
+}
+.box2-a {
+  width: 100px;
+  background-color: lightpink;
+}
+.box2-b {
+  width: 200px;
+  background-color: lightblue;
+}
+.box2b-row2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.row2 {
+  color: white;
+  background-color: black;
+}
+
+.sender-photo {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.account {
+  width: 375px;
+  margin-top: 30px;
+  padding: 10px;
+  border: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+}
+.inbox-tab {
+  color: rgb(205,205,205);
+  margin: 0;
+}
+.email {
+  display: flex;
+  margin-top: 15px;
+}
+.time, .message {
+  color: rgb(205,205,205);
+}
+.sender, .subject, .message {
+  margin: 3px;
+}
+.time {
+  margin: 0;
+  margin-left: -40px;
+}
+.sender {
+  font-weight: 800;
+  font-size: large;
+}
+.subject{
+  font-weight: 600;
+}
+.emails-list {
+  margin-top: 30px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+  width: 375px;
+}
